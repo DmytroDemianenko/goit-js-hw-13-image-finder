@@ -3,8 +3,16 @@
 *::after {
   box-sizing: border-box;
 }
+body {
+  color: white;
+  background-color: rgb(241, 240, 232);
+  background-image: url('./images/water-gf22583a2d_640.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
 .container{
-
     text-align: center;
     color: blueviolet;
     font-size: 36px;
@@ -16,18 +24,16 @@
     border-color: red
 
 }
-body {
-    background-image: url(./images/water-falles.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: rebeccapurple;
-    font-size: 36px;
-  }
-  .main-container{
-    margin-left: auto;
-    margin-right: auto;
+.main-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  }
   ul{
     list-style: none;
   }
@@ -64,8 +70,10 @@ body {
   }
   .list-item{
     display: flex;
-    margin-left: 30px;
-    margin-right: 30px;
+    flex-direction: row;
+    
+    margin-left: auto;
+    margin-right: auto;
   }
   .stats{
     display: flex;
@@ -74,6 +82,29 @@ body {
   }
   .stats-item{
     margin-right: 25px;
-    /* margin-left: 25px; */
-
+    margin-left: 25px;
   }
+  .button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .button.is-hidden {
+    display: none;
+  }
+  
+  .button > .spinner.is-hidden {
+    display: none;
+  }
+  /* .scrollup{
+   width:40px;
+   height:40px;
+   opacity:0.3;
+   position:fixed;
+   bottom:50px;
+   right:80px;
+   display:none;
+   text-indent:-9999px;
+   background: url(./images/annotation-2675672.ai) no-repeat;
+     }  */
