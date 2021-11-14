@@ -24,7 +24,8 @@
 <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+    <div class="main-container">
+      <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
     <!-- <include src="./partials/example.html"></include> -->
     <form class="search-form" id="search-form">
       <input
@@ -36,14 +37,17 @@
       />
       <button type="submit" class="js-submit-bth">Search</button>
     </form>
+    <div>
+      <ul class="gallery">
+        <!-- Список <li> с карточками изображений -->
+      </ul>
+    </div>
 
-    <ul class="gallery">
-      <!-- Список <li> с карточками изображений -->
-    </ul>
     <!--Butoon load more picture-->
     <div class="button-container">
       <button type="button"  class="js-load-more" data-action="load-more">Load more...</button>
 
+    </div>
     </div>
    
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->

@@ -23,6 +23,11 @@ body {
     color: rebeccapurple;
     font-size: 36px;
   }
+  .main-container{
+    margin-left: auto;
+    margin-right: auto;
+
+  }
   ul{
     list-style: none;
   }
@@ -34,6 +39,7 @@ body {
       border-radius: 4px;
       border-color: #f33708b0;
       text-align: center;
+      margin-bottom: 30px;
   }
   .button-container{
     display: flex;
@@ -50,4 +56,24 @@ body {
       border-color: #f33708b0;
       text-align: center;
       margin: auto;
+  }
+  .gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .list-item{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .stats{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .stats-item{
+    margin-right: 25px;
+    /* margin-left: 25px; */
+
   }
