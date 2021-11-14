@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container{
+
+    text-align: center;
+    color: blueviolet;
+    font-size: 36px;
+
+}
+.input__control{
+    border-radius: 4px;
+    box-shadow: inset;
+    border-color: red
+
+}
+body {
+    background-image: url(./images/water-falles.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rebeccapurple;
+    font-size: 36px;
+  }
+  ul{
+    list-style: none;
+  }
+  .search-form{
+      position: relative;
+      top: 40px;
+      /* left: 50px; */
+      font-size: 24px;
+      border-radius: 4px;
+      border-color: #f33708b0;
+      text-align: center;
+  }
+  .button-container{
+    display: flex;
+    position: relative;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .js-load-more{
+      position: absolute;
+      left: 50%;
+      font-size: 24px;
+      border-radius: 4px;
+      border-color: #f33708b0;
+      text-align: center;
+      margin: auto;
+  }
